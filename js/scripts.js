@@ -1,29 +1,23 @@
-alert()
-
-var myName = 'Bob';
-document.write(myName);
-var myName = 'Bob';
-document.write(myName);
-
-var favfood ="Pasta";
-document.write (favfood)
-
-
-
-
-
-
-/* var myName = 'Fred';
-alert(myName);
-
-var simpleAddition = 2 + 2;
-document.write(simpleAddition);
-
-var size = 100;
-var doubleSize = size * 2;
-document.write(doubleSize);
-
-var size = 100;
-var doubleSize = size * 2;
-var minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize); */
+repository = [];
+repository = [
+  {
+    name: "Bulbasaur",
+    height: 0.7,
+    types: ["grass", "poison"],
+  },
+  {
+    name: "Charmander",
+    height: 0.8,
+    types: ["grass", "poison"],
+  },
+  {
+    name: "Venusaur",
+    height: 0.9,
+    types: ["grass", "poison"],
+  },
+  {
+    name: "Clefable",
+    height: 0.4,
+    types: ["fairy"],
+  },
+]
