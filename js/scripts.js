@@ -1,4 +1,4 @@
-repository = [];
+var repository = []
 repository = [
   {
     name: "Bulbasaur",
@@ -12,7 +12,7 @@ repository = [
   },
   {
     name: "Venusaur",
-    height: 0.9,
+    height: 1.9,
     types: ["grass", "poison"],
   },
   {
@@ -21,3 +21,12 @@ repository = [
     types: ["fairy"],
   },
 ]
+//loop for task 1.3 JS
+for (items in repository) {
+  document.write(repository[items].name + ' (height: ' + repository[items].height + 'm)<br>');
+  if (repository[items].height > 1) {
+    document.write(repository[items].name + " (height: " + repository[items].height + "m) - Wow, that's big!<br><br>");
+  } else {
+    document.write(repository[items].name + ' (height: ' + repository[items].height + 'm)<br><br>');
+  }
+}

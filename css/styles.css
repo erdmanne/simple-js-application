@@ -1,16 +1,74 @@
-body{
-  background-color: lightgrey;
-  padding: 20px;
+/*
+ #232A34 dark lightgrey
+#A46484 rosy brown girly background to "lift" those nerdy pokemon stuff ;)
+#91AFC1: light steel lightblue
+#B395B1: light rosy brown
+*/
+
+
+:root {
+  --background-color:#B395B1;
+  --primary-color: #232A34;
+  --secondary-color: white;
+  --link-color: #232A34;
+  --visited-link-color:#B395B1 ;
+  --active-link-color: #231815;
+  --grid-bg-color: #B395B1;
+  --primary-font-size: 16px;
+  --primary-font-weigth: 400;
+  --h1-font-family: 'Dancing Script', cursive;
+  --h1-font-size: 70px;
+  --h1-font-weight: 700;
+  --font-family: 'Amatic SC', cursive;
+  --font-size: 30px;
+  --font-weight: 700;
 }
 
-.classh1{
+* {
+  box-sizing:border-box;
+}
+body{
+  background-color:var(--background-color);
+  padding: 20px;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.page-header__item {
+display: inline-block;
+text-align: center;
+
+}
+
+.h1{
+  font-family:var(--h1-font-family);
+  font-size: var(--h1-font-size);
   display: block;
   text-align:center;
 
 }
 .buttonjs{
   display: block;
-  background-color: lightblue;
+  background-color: var(--secondary-color);
   padding: 50px;
   margin: 0 auto;
+  border-radius: 50%;
+}
+
+.grid{
+display: grid;
+text-align: center;
+background-color: var(--secondary-color);
+border-color: var(--secondary-color);
+
+}
+
+.grid__item{
+display: grid;
+text-align: center;
+background-color: var(--secondary-color);
+border-color: var(--secondary-color);
+padding: auto;
+margin: auto 0;   
+
 }
