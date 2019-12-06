@@ -34,7 +34,7 @@ body{
   font-size: var(--font-size);
 }
 
-.page-header__item {
+.pokeball {
 display: inline-block;
 text-align: center;
 
@@ -69,6 +69,6 @@ text-align: center;
 background-color: var(--secondary-color);
 border-color: var(--secondary-color);
 padding: auto;
-margin: auto 0;   
+margin: auto 0;
 
 }
