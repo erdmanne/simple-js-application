@@ -35,15 +35,18 @@ body{
 }
 
 .pokeball {
-display: inline-block;
-text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
 
 }
 
 .h1{
   font-family:var(--h1-font-family);
   font-size: var(--h1-font-size);
-  display: block;
+  display: inline-block;
   text-align:center;
 
 }
@@ -71,4 +74,22 @@ border-color: var(--secondary-color);
 padding: auto;
 margin: auto 0;
 
+}
+.pokemon-list li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    width: 33.333%;
+}
+
+.list-button {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--backgroundcolor);
+    border: var(--primarycolor) solid 1px;
+    cursor: pointer;
+    font: var(--font-family);
 }

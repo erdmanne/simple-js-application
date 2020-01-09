@@ -1,8 +1,8 @@
 
 /*!
 * Here comes all Javascript
-* Pokedoki App
-* Date: 1.5 task
+* Pokemon App
+* Task 1.6 task 09.01.20
 */
 
 // wrap repository array in an IIFE to avoid accidentally accessing the global state.
