@@ -24,9 +24,7 @@
   --font-weight: 700;
 }
 
-* {
-  box-sizing:border-box;
-}
+
 body{
   background-color:var(--background-color);
   padding: 20px;
@@ -44,12 +42,11 @@ margin-right: auto;
 }
 
 .h1{
-  font-family:var(--h1-font-family);
-  font-size: var(--h1-font-size);
-  display: inline-block;
-  text-align:center;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .buttonjs{
   display: block;
   background-color: var(--secondary-color);
@@ -63,7 +60,6 @@ display: grid;
 text-align: center;
 background-color: var(--secondary-color);
 border-color: var(--secondary-color);
-
 }
 
 .grid__item{
